@@ -1,0 +1,18 @@
+{
+  "locales": ["en", "ar"],
+  "defaultLocale": "en",
+  "pages": {
+    "*": ["common"],
+    "/": ["home"],
+    "/products": ["listing"],
+    "/products/[pid]": ["details"],
+    "/checkout": ["checkout"],
+    "/orders": ["order"],
+    "/auth/login": ["login"],
+    "/auth/register": ["register"],
+    "/404": ["404"],
+    "/auth/reset-password": ["reset-password"],
+    "/auth/forget-password": ["forget-password", "common"],
+    "/prodile": ["profile"]
+  }
+}

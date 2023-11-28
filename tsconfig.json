@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "useUnknownInCatchVariables": false,
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": "."
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/pages/products/index.tsx",
+    "src/components/_main/categories/productList.tsx",
+    "src/components/_main/products/filters/sizesFilter.tsx",
+    "src/pages/api/admin/categories/index.js",
+    "src/pages/api/admin/categories/sub-categories/index.js",
+    "src/pages/api/admin/dashboard/index.js",
+    "takemonk-frontend-org/src/pages/api/auth/forget-password.ts"
+  ],
+  "exclude": ["node_modules"]
+}

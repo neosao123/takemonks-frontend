@@ -1,0 +1,103 @@
+{
+  "menu": [
+    {
+      "title": "header.home",
+      "path": "/"
+    },
+    {
+      "title": "header.categories",
+      "path": "/",
+      "isDropdown": true
+    },
+    {
+      "title": "header.new",
+      "path": "/products?condition=new"
+    },
+    {
+      "title": "header.refurbished",
+      "path": "/products?condition=refurbished"
+    },
+    {
+      "title": "AMC",
+      "path": "/amcs"
+    }
+  ],
+  "mobile_menu": [
+    {
+      "name": "header.home",
+      "href": "/"
+    },
+    {
+      "name": "header.search",
+      "href": "/search"
+    },
+    {
+      "name": "header.product",
+      "href": "/products"
+    },
+    {
+      "name": "header.checkout",
+      "href": "/checkout"
+    },
+    {
+      "name": "AMC",
+      "href": "/amcs"
+    },
+    {
+      "name": "header.user",
+      "isUser": true,
+      "href": "/auth/login"
+    }
+  ],
+
+  "social": [
+    { "name": "FaceBook", "color": "#1672E6", "href": "#" },
+    { "name": "Instagram", "color": "#F40052", "href": "#" },
+    { "name": "Linkedin", "color": "#0962B7", "href": "#" },
+    { "name": "Pinterest", "color": "#B7081B", "href": "#" }
+  ],
+  "company": {
+    "email": "info@takemonks.in",
+    "phone": "+91-8655095767"
+  },
+  "footer_links": [
+    {
+      "headline": "footer.product",
+      "children": [
+        { "name": "footer.application", "href": "#" },
+        { "name": "footer.features", "href": "#" },
+        { "name": "footer.requirements", "href": "#" },
+        { "name": "footer.technology", "href": "#" }
+      ]
+    },
+    {
+      "headline": "footer.resources",
+      "children": [
+        { "name": "footer.changelogy", "href": "#" },
+        { "name": "footer.updates", "href": "#" },
+        { "name": "footer.providers", "href": "#" },
+        { "name": "footer.affiliat", "href": "#" },
+        { "name": "footer.roadmap", "href": "#" }
+      ]
+    },
+    {
+      "headline": "footer.company",
+      "children": [
+        { "name": "footer.blog", "href": "#" },
+        { "name": "footer.about-us", "href": "#" },
+        { "name": "footer.contact-us", "href": "#" },
+        { "name": "footer.jobs", "href": "#" },
+        { "name": "footer.team", "href": "#" }
+      ]
+    }
+  ],
+  "languages": [{ "name": "English", "key": "en", "countryCode": "in" }],
+  "currencies": [
+    {
+      "name": "indian-rupee",
+      "prefix": "INR",
+      "symbol": " ₹",
+      "unitRate": 1
+    }
+  ]
+}
